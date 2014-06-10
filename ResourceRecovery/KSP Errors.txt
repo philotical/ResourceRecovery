@@ -1,0 +1,449 @@
+AssemblyLoader: Loading assembly at M:\games\ksp\ksp-win-0-23-5\KSP_win_clean\GameData\Philotical\ResourceRecovery\ResourceRecovery.dll
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+AssemblyLoader: Loading assemblies
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Non platform assembly: M:\games\ksp\ksp-win-0-23-5\KSP_win_clean\GameData\ModuleManager.2.0.8.dll (this message is harmless)
+Non platform assembly: M:\games\ksp\ksp-win-0-23-5\KSP_win_clean\GameData\000_Toolbar\Toolbar.dll (this message is harmless)
+Non platform assembly: M:\games\ksp\ksp-win-0-23-5\KSP_win_clean\GameData\blizzy\AmbientLightAdjustment\AmbientLightAdjustment.dll (this message is harmless)
+Non platform assembly: M:\games\ksp\ksp-win-0-23-5\KSP_win_clean\GameData\Philotical\Planitron\PlanitronReloaded.dll (this message is harmless)
+Non platform assembly: M:\games\ksp\ksp-win-0-23-5\KSP_win_clean\GameData\Philotical\ResourceRecovery\ResourceRecovery.dll (this message is harmless)
+AssemblyLoader: Exception loading 'ResourceRecovery': System.Reflection.ReflectionTypeLoadException: The classes in the module cannot be loaded.
+
+  at (wrapper managed-to-native) System.Reflection.Assembly:GetTypes (bool)
+
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <filename unknown>:0 
+
+  at AssemblyLoader.LoadAssemblies () [0x00000] in <filename unknown>:0 
+
+Additional information about this exception:
+
+ System.TypeLoadException: Could not load type 'Philotical.AddScenarioModules' from assembly 'ResourceRecovery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+
+ System.TypeLoadException: Could not load type 'Philotical.ResourceRecovery' from assembly 'ResourceRecovery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+
+ System.TypeLoadException: Could not load type 'Philotical.ToolbarTypes' from assembly 'ResourceRecovery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+
+ System.TypeLoadException: Could not load type '<>c__DisplayClass3' from assembly 'ResourceRecovery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+
+
+ **********************************************************************************************************
+ With .NET 3.5
+
+ OnLoad: SCENARIO
+{
+	name = ResourceRecovery
+	scene = 5, 7, 6, 9
+}
+
+
+{
+}
+
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[VesselSpawner]: No new objects this time. (Odds are 1:2)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Philotical.ResourceRecoverySpaceCenterManager.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Clicked
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Pre-Flight Check]: Checking for NoControlSources: PASS!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Pre-Flight Check]: Checking for NoCrewInMannedVessel: PASS!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Pre-Flight Check]: Checking for WrongVesselTypeForLaunchSite: PASS!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Pre-Flight Check]: All Checks Complete. Go for Launch!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Launching vessel from Runway. Craft file: M:\games\ksp\ksp-win-0-23-5\KSP_win_clean\Ships\SPH\Aeris 3A.craft
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Flight State Captured
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Saving Achievements Tree...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Saving Achievements Tree...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Saving Achievements Tree...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Philotical.ResourceRecoverySpaceCenterManager.Save (.ConfigNode globalNode) [0x00000] in <filename unknown>:0 
+
+  at Philotical.ResourceRecovery.OnSave (.ConfigNode gameNode) [0x00000] in <filename unknown>:0 
+
+  at ScenarioModule.Save (.ConfigNode node) [0x00000] in <filename unknown>:0 
+
+  at ProtoScenarioModule..ctor (.ScenarioModule module) [0x00000] in <filename unknown>:0 
+
+  at ScenarioRunner.GetUpdatedProtoModules () [0x00000] in <filename unknown>:0 
+
+  at Game.Updated () [0x00000] in <filename unknown>:0 
+
+  at GamePersistence.SaveGame (System.String saveFileName, System.String saveFolder, SaveMode saveMode) [0x00000] in <filename unknown>:0 
+
+  at FlightDriver.StartWithNewLaunch (System.String fullFilePath, System.String missionFlagURL, System.String launchSiteName, .VesselCrewManifest manifest) [0x00000] in <filename unknown>:0 
+
+  at LaunchSiteFacility.launchVessel () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.Complete () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.RunTests () [0x00000] in <filename unknown>:0 
+
+  at LaunchSiteFacility.shipSelected (System.String path, System.String flag, .VesselCrewManifest manifest) [0x00000] in <filename unknown>:0 
+
+  at VesselSpawnDialog.LaunchSelectedVessel () [0x00000] in <filename unknown>:0 
+
+  at VesselSpawnDialog.ButtonLaunch (.POINTER_INFO& ptr) [0x00000] in <filename unknown>:0 
+
+  at (wrapper delegate-invoke) EZInputDelegate:invoke_void__this___POINTER_INFO& (POINTER_INFO&)
+
+  at UIButton.OnInput (.POINTER_INFO& ptr) [0x00000] in <filename unknown>:0 
+
+  at AutoSpriteControlBase.OnInput (POINTER_INFO ptr) [0x00000] in <filename unknown>:0 
+
+  at UIManager.DispatchHelper (.POINTER_INFO& curPtr, Int32 camIndex) [0x00000] in <filename unknown>:0 
+
+  at UIManager.DispatchInput () [0x00000] in <filename unknown>:0 
+
+  at UIManager.Update () [0x00000] in <filename unknown>:0 
+
+  at UIManager.DidAnyPointerHitUI () [0x00000] in <filename unknown>:0 
+
+  at SpaceCenterCamera2.InputCamera () [0x00000] in <filename unknown>:0 
+
+  at SpaceCenterCamera2.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Clicked
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[Pre-Flight Check]: Checking for NoControlSources: PASS!
+ 
+
+
+ [...]
+
+
+ Launching vessel from Runway. Craft file: M:\games\ksp\ksp-win-0-23-5\KSP_win_clean\Ships\SPH\Aeris 3A.craft
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Flight State Captured
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Saving Achievements Tree...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Saving Achievements Tree...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Saving Achievements Tree...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Philotical.ResourceRecoverySpaceCenterManager.Save (.ConfigNode globalNode) [0x00000] in <filename unknown>:0 
+
+  at Philotical.ResourceRecovery.OnSave (.ConfigNode gameNode) [0x00000] in <filename unknown>:0 
+
+  at ScenarioModule.Save (.ConfigNode node) [0x00000] in <filename unknown>:0 
+
+  at ProtoScenarioModule..ctor (.ScenarioModule module) [0x00000] in <filename unknown>:0 
+
+  at ScenarioRunner.GetUpdatedProtoModules () [0x00000] in <filename unknown>:0 
+
+  at Game.Updated () [0x00000] in <filename unknown>:0 
+
+  at GamePersistence.SaveGame (System.String saveFileName, System.String saveFolder, SaveMode saveMode) [0x00000] in <filename unknown>:0 
+
+  at FlightDriver.StartWithNewLaunch (System.String fullFilePath, System.String missionFlagURL, System.String launchSiteName, .VesselCrewManifest manifest) [0x00000] in <filename unknown>:0 
+
+  at LaunchSiteFacility.launchVessel () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.Complete () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.RunTests () [0x00000] in <filename unknown>:0 
+
+  at LaunchSiteFacility.shipSelected (System.String path, System.String flag, .VesselCrewManifest manifest) [0x00000] in <filename unknown>:0 
+
+  at VesselSpawnDialog.LaunchSelectedVessel () [0x00000] in <filename unknown>:0 
+
+  at VesselSpawnDialog.ButtonLaunch (.POINTER_INFO& ptr) [0x00000] in <filename unknown>:0 
+
+  at (wrapper delegate-invoke) EZInputDelegate:invoke_void__this___POINTER_INFO& (POINTER_INFO&)
+
+  at UIButton.OnInput (.POINTER_INFO& ptr) [0x00000] in <filename unknown>:0 
+
+  at AutoSpriteControlBase.OnInput (POINTER_INFO ptr) [0x00000] in <filename unknown>:0 
+
+  at UIManager.DispatchHelper (.POINTER_INFO& curPtr, Int32 camIndex) [0x00000] in <filename unknown>:0 
+
+  at UIManager.DispatchInput () [0x00000] in <filename unknown>:0 
+
+  at UIManager.Update () [0x00000] in <filename unknown>:0 
+
+  at UIManager.DidAnyPointerHitUI () [0x00000] in <filename unknown>:0 
+
+  at SpaceCenterCamera2.InputCamera () [0x00000] in <filename unknown>:0 
+
+  at SpaceCenterCamera2.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Clicked
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[VesselSpawner]: New object found!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Flyby orbit Created: Pe = 20,421,023m, dV = 188m/s
+
+[...]
+
+
+
+[Pre-Flight Check]: All Checks Complete. Go for Launch!
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Launching vessel from LaunchPad. Craft file: M:\games\ksp\ksp-win-0-23-5\KSP_win_clean\Ships\VAB\Kerbal 2.craft
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Flight State Captured
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Saving Achievements Tree...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Saving Achievements Tree...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Saving Achievements Tree...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Philotical.ResourceRecoverySpaceCenterManager.Save (.ConfigNode globalNode) [0x00000] in <filename unknown>:0 
+
+  at Philotical.ResourceRecovery.OnSave (.ConfigNode gameNode) [0x00000] in <filename unknown>:0 
+
+  at ScenarioModule.Save (.ConfigNode node) [0x00000] in <filename unknown>:0 
+
+  at ProtoScenarioModule..ctor (.ScenarioModule module) [0x00000] in <filename unknown>:0 
+
+  at ScenarioRunner.GetUpdatedProtoModules () [0x00000] in <filename unknown>:0 
+
+  at Game.Updated () [0x00000] in <filename unknown>:0 
+
+  at GamePersistence.SaveGame (System.String saveFileName, System.String saveFolder, SaveMode saveMode) [0x00000] in <filename unknown>:0 
+
+  at FlightDriver.StartWithNewLaunch (System.String fullFilePath, System.String missionFlagURL, System.String launchSiteName, .VesselCrewManifest manifest) [0x00000] in <filename unknown>:0 
+
+  at LaunchSiteFacility.launchVessel () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.Complete () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.RunTests () [0x00000] in <filename unknown>:0 
+
+  at LaunchSiteFacility.shipSelected (System.String path, System.String flag, .VesselCrewManifest manifest) [0x00000] in <filename unknown>:0 
+
+  at VesselSpawnDialog.LaunchSelectedVessel () [0x00000] in <filename unknown>:0 
+
+  at VesselSpawnDialog.ButtonLaunch (.POINTER_INFO& ptr) [0x00000] in <filename unknown>:0 
+
+  at (wrapper delegate-invoke) EZInputDelegate:invoke_void__this___POINTER_INFO& (POINTER_INFO&)
+
+  at UIButton.OnInput (.POINTER_INFO& ptr) [0x00000] in <filename unknown>:0 
+
+  at AutoSpriteControlBase.OnInput (POINTER_INFO ptr) [0x00000] in <filename unknown>:0 
+
+  at UIManager.DispatchHelper (.POINTER_INFO& curPtr, Int32 camIndex) [0x00000] in <filename unknown>:0 
+
+  at UIManager.DispatchInput () [0x00000] in <filename unknown>:0 
+
+  at UIManager.Update () [0x00000] in <filename unknown>:0 
+
+  at UIManager.DidAnyPointerHitUI () [0x00000] in <filename unknown>:0 
+
+  at SpaceCenterCamera2.InputCamera () [0x00000] in <filename unknown>:0 
+
+  at SpaceCenterCamera2.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+
+
+****************************************************************************************************************************************************************
+
+
+
+Launching vessel from Runway. Craft file: M:\games\ksp\ksp-win-0-23-5\KSP_win_clean\Ships\SPH\Aeris 3A.craft
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Flight State Captured
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Saving Achievements Tree...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Saving Achievements Tree...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Saving Achievements Tree...
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Philotical.ResourceRecoverySpaceCenterManager.Save (.ConfigNode globalNode) [0x00000] in <filename unknown>:0 
+
+  at Philotical.ResourceRecovery.OnSave (.ConfigNode gameNode) [0x00000] in <filename unknown>:0 
+
+  at ScenarioModule.Save (.ConfigNode node) [0x00000] in <filename unknown>:0 
+
+  at ProtoScenarioModule..ctor (.ScenarioModule module) [0x00000] in <filename unknown>:0 
+
+  at ScenarioRunner.GetUpdatedProtoModules () [0x00000] in <filename unknown>:0 
+
+  at Game.Updated () [0x00000] in <filename unknown>:0 
+
+  at GamePersistence.SaveGame (System.String saveFileName, System.String saveFolder, SaveMode saveMode) [0x00000] in <filename unknown>:0 
+
+  at FlightDriver.StartWithNewLaunch (System.String fullFilePath, System.String missionFlagURL, System.String launchSiteName, .VesselCrewManifest manifest) [0x00000] in <filename unknown>:0 
+
+  at LaunchSiteFacility.launchVessel () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.Complete () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.runNextTest () [0x00000] in <filename unknown>:0 
+
+  at PreFlightCheck.RunTests () [0x00000] in <filename unknown>:0 
+
+  at LaunchSiteFacility.shipSelected (System.String path, System.String flag, .VesselCrewManifest manifest) [0x00000] in <filename unknown>:0 
+
+  at VesselSpawnDialog.LaunchSelectedVessel () [0x00000] in <filename unknown>:0 
+
+  at VesselSpawnDialog.ButtonLaunch (.POINTER_INFO& ptr) [0x00000] in <filename unknown>:0 
+
+  at (wrapper delegate-invoke) EZInputDelegate:invoke_void__this___POINTER_INFO& (POINTER_INFO&)
+
+  at UIButton.OnInput (.POINTER_INFO& ptr) [0x00000] in <filename unknown>:0 
+
+  at AutoSpriteControlBase.OnInput (POINTER_INFO ptr) [0x00000] in <filename unknown>:0 
+
+  at UIManager.DispatchHelper (.POINTER_INFO& curPtr, Int32 camIndex) [0x00000] in <filename unknown>:0 
+
+  at UIManager.DispatchInput () [0x00000] in <filename unknown>:0 
+
+  at UIManager.Update () [0x00000] in <filename unknown>:0 
+
+  at UIManager.DidAnyPointerHitUI () [0x00000] in <filename unknown>:0 
+
+  at SpaceCenterCamera2.InputCamera () [0x00000] in <filename unknown>:0 
+
+  at SpaceCenterCamera2.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+OnDestroy
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+OnDestroy
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Philotical.ResourceRecoverySpaceCenterManager.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_renderer ()
+
+  at ScreenSafeUIButton.setTextureState (Int32 st) [0x00000] in <filename unknown>:0 
+
+  at ScreenSafeUIButton.Unlock () [0x00000] in <filename unknown>:0 
+
+  at SpaceCenterMain.unlockUI () [0x00000] in <filename unknown>:0 
+
+  at EventVoid.Fire () [0x00000] in <filename unknown>:0 
+
+  at VesselSpawnDialog.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
