@@ -1,0 +1,357 @@
+RESOURCE_FACTORY_SETTINGS
+{
+		// Squad Resources
+	RESOURCE
+	{
+	  name = LiquidFuel
+	  density = 0.005
+			supply_mode = 0
+			value_factor = 1
+			display_order = 00
+			hide = 0
+			group = fuel
+	}
+	RESOURCE
+	{
+	  name = XenonGas
+	  density = 0.0001
+			supply_mode = 0
+			value_factor = 2
+			display_order = 01
+			hide = 0
+			group = gas
+	}
+	RESOURCE
+	{
+	  name = SolidFuel
+	  density = 0.0075
+			supply_mode = 0
+			value_factor = 0.9
+			display_order = 02
+			hide = 0
+			group = fuel
+	}
+	RESOURCE
+	{
+	  name = ElectricCharge
+	  density = 0
+			supply_mode = 0
+			value_factor = 0
+			display_order = 03
+			hide = 0
+			group = electric
+	}
+	RESOURCE
+	{
+	  name = Oxidizer
+	  density = 0.005
+			supply_mode = 0
+			value_factor = 1
+			display_order = 04
+			hide = 0
+			group = fuel
+	}
+	RESOURCE
+	{
+	  name = MonoPropellant
+	  density = 0.004
+			supply_mode = 0
+			value_factor = 1
+			display_order = 05
+			hide = 0
+			group = other
+	}
+	// Kethane Resources
+	RESOURCE
+	{
+	  name = Kethane
+	  density = 0.002
+		supply_mode = 1
+		value_factor = 1
+		display_order = 06
+		hide = 0
+		group = other
+	}
+	// EL Resources
+	RESOURCE
+
+	{
+
+	  name = RocketParts
+
+	  density = 0.0025		// parts are very fluffy. 0.5t/m^3
+
+		supply_mode = 1
+		value_factor = 5
+		display_order = 07
+		hide = 0
+		group = other
+	}
+
+	RESOURCE
+
+	{
+
+	  name = Metal
+
+	  density = 0.039		// iron is 7.8t/m^3
+
+		supply_mode = 1
+		value_factor = 3
+		display_order = 08
+		hide = 0
+		group = other
+	}
+
+	RESOURCE
+
+	{
+
+	  name = Ore
+
+	  density = 0.0275			// average density of rock is 5.5t/m^3
+
+		supply_mode = 1
+		value_factor = 1
+		display_order = 09
+		hide = 0
+		group = other
+	}
+
+	// KSPI Resources
+	RESOURCE
+	{
+	  name = Megajoules
+	  density = 0
+		supply_mode = 0
+		value_factor = 0
+		display_order = 10
+		hide = 0
+		group = electric
+	}
+	RESOURCE
+	{
+	  name = ChargedParticles
+	  density = 0
+		supply_mode = 0
+		value_factor = 0
+		display_order = 11
+		hide = 0
+		group = electric
+	}
+	RESOURCE
+	{
+	  name = Antimatter
+	  density = 0.000000001
+		supply_mode = 1
+		value_factor = 75
+		display_order = 12
+		hide = 0
+		group = electric
+	}
+	RESOURCE
+	{
+	  name = UF4
+	  density = 0.005
+	  flowMode = ALL_VESSEL
+		supply_mode = 1
+		value_factor = 4
+		display_order = 13
+		hide = 0
+		group = electric
+	}
+	RESOURCE
+	{
+	  name = ThF4
+	  density = 0.0042
+		supply_mode = 1
+		value_factor = 5
+		display_order = 14
+		hide = 0
+		group = electric
+	}
+	RESOURCE
+	{
+	  name = UraniumNitride
+	  density = 0.0143
+		supply_mode = 1
+		value_factor = 4
+		display_order = 15
+		hide = 0
+		group = electric
+	}
+	RESOURCE
+	{
+	  name = Actinides
+	  density = 0.005
+		supply_mode = 2
+		value_factor = 0.2
+		display_order = 16
+		hide = 0
+		group = waste
+	}
+	RESOURCE
+	{
+	  name = DepletedFuel
+	  density = 0.005
+		supply_mode = 2
+		value_factor = 0.2
+		display_order = 17
+		hide = 0
+		group = waste
+	}
+	RESOURCE
+	{
+	  name = Argon
+	  density = 0.005
+		supply_mode = 1
+		value_factor = 2
+		display_order = 18
+		hide = 0
+		group = gas
+	}
+	RESOURCE
+	{
+	  name = Aluminium
+	  density = 0.0135
+		supply_mode = 1
+		value_factor = 0.5
+		display_order = 19
+		hide = 0
+		group = fuel
+	}
+	RESOURCE
+	{
+	  name = ExoticMatter
+	  density = 0
+		supply_mode = 1
+		value_factor = 300
+		display_order = 20
+		hide = 0
+		group = fuel
+	}
+	RESOURCE
+	{
+	  name = Deuterium
+	  density = 0.001
+		supply_mode = 1
+		value_factor = 2
+		display_order = 21
+		hide = 0
+		group = fuel
+	}
+	RESOURCE
+	{
+	  name = Lithium
+	  density = 0.001
+		supply_mode = 1
+		value_factor = 3
+		display_order = 22
+		hide = 0
+		group = fuel
+	}
+	RESOURCE
+	{
+	  name = Tritium
+	  density = 0.001
+		supply_mode = 1
+		value_factor = 7
+		display_order = 23
+		hide = 0
+		group = fuel
+	}
+	RESOURCE
+	{
+	  name = LqdMethane
+	  density = 0.00186456
+		supply_mode = 1
+		value_factor = 1.2
+		display_order = 24
+		hide = 0
+		group = fuel
+	}
+	RESOURCE
+	{
+	  name = Plutonium-238
+	  density = 0.001
+		supply_mode = 1
+		value_factor = 3
+		display_order = 25
+		hide = 0
+		group = fuel
+	}
+	RESOURCE
+	{
+	  name = Helium-3
+	  density = 0.001
+		supply_mode = 1
+		value_factor = 500
+		display_order = 26
+		hide = 0
+		group = gas
+	}
+	RESOURCE
+	{
+	  name = LqdWater
+	  density = 0.001
+		supply_mode = 1
+		value_factor = 0.2
+		display_order = 27
+		hide = 0
+		group = fuel
+	}
+	RESOURCE
+	{
+	  name = Alumina
+	  density = 0.00399
+		supply_mode = 1
+		value_factor = 1
+		display_order = 28
+		hide = 0
+		group = fuel
+	}
+	RESOURCE
+	{
+	  name = H2Peroxide
+	  density = 0.00145
+		supply_mode = 1
+		value_factor = 2
+		display_order = 29
+		hide = 0
+		group = fuel
+	}
+	RESOURCE
+	{
+	  name = Ammonia
+	  density = 0.000681
+		supply_mode = 1
+		value_factor = 0.8
+		display_order = 30
+		hide = 0
+		group = fuel
+	}
+	RESOURCE
+	{
+	  name = LqdHelium
+	  density = 0.000135
+		supply_mode = 1
+		value_factor = 80
+		display_order = 31
+		hide = 0
+		group = fuel
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
